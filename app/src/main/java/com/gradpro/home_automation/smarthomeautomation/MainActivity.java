@@ -15,18 +15,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button login =(Button)findViewById(R.id.login_button);
+        Button login = (Button) findViewById(R.id.login_button);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              func();
+                Intent i = new Intent(MainActivity.this, home1.class);
+                startActivity(i);
             }
         });
     }
-    public void func()
-    {
-        Intent i = new Intent(this,home1.class);
-        startActivity(i);
-    }
-
 }

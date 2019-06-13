@@ -13,4 +13,8 @@
     <string name="tab_text_1">Control</string>
     <string name="tab_text_2">Home</string>
     <string name="tab_text_3">Status</string>
+    <string name="title_activity_leds">leds</string>
+    <string name="title_activity_fan">fan</string>
+    <string name="title_activity_lock">lock</string>
+    <string name="title_activity_sensors">sensors</string>
 </resources>

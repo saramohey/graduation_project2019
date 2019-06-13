@@ -129,7 +129,7 @@ public class home1 extends AppCompatActivity {
             switch (position) {
 
                 case 0:
-                    return "CONTROL";
+                    return "POOL";
                 case 1:
                     return "HOME";
                 case 2:
