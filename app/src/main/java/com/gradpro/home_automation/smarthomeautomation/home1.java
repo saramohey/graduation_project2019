@@ -9,13 +9,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-
-import android.widget.TextView;
 
 public class home1 extends AppCompatActivity {
 
@@ -84,7 +79,7 @@ public class home1 extends AppCompatActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.tab1_control, container, false);
+            View rootView = inflater.inflate(R.layout.tab1_pool, container, false);
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
             textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             return rootView;
@@ -102,7 +97,7 @@ public class home1 extends AppCompatActivity {
             switch (position)
             {
                 case 0:
-                    tab1_control tab1 =new tab1_control();
+                    tab1_pool tab1 =new tab1_pool();
                     return tab1;
                 case 1:
                     tab2_home tab2 =new tab2_home();

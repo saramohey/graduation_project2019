@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "333624292174",
+    "firebase_url": "https://smarthomeautomation-52462.firebaseio.com",
+    "project_id": "smarthomeautomation-52462",
+    "storage_bucket": "smarthomeautomation-52462.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333624292174:android:5241e2a9ed7bc462",
+        "android_client_info": {
+          "package_name": "com.gradpro.home_automation.smarthomeautomation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333624292174-kd95hneicetg0n71jjoe4r3slj3judc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gradpro.home_automation.smarthomeautomation",
+            "certificate_hash": "6b900cef7eca61403ffe1e7f24141c318c4f6390"
+          }
+        },
+        {
+          "client_id": "333624292174-mnt6lv0qdgd9d8elr1kngir9v1gsp803.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfuVog188_M8V6AW1jN7QM-rdPQEkVnFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333624292174-mnt6lv0qdgd9d8elr1kngir9v1gsp803.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

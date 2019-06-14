@@ -39,7 +39,6 @@
             android:name=".sensors"
             android:label="@string/title_activity_sensors"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".pool"></activity>
     </application>
 
 </manifest>
