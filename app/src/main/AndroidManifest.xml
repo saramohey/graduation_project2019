@@ -24,6 +24,10 @@
             android:label="@string/title_activity_home1"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name=".settings"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".leds"
             android:label="@string/title_activity_leds"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -32,12 +36,12 @@
             android:label="@string/title_activity_fan"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".lock"
-            android:label="@string/title_activity_lock"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".sensors"
             android:label="@string/title_activity_sensors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".lock"
+            android:label="@string/title_activity_lock"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 

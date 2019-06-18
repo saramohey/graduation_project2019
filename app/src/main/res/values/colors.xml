@@ -5,10 +5,10 @@
     <color name="colorAccent">#FF4081</color>
     <color name="backgroundcolor">#fcfcfc</color>
     <color name="lightgray">#ededed</color>
-    <color name="deeppurple">#7c4dff</color>
+    <color name="deeppurple">#7dd2ee</color>
     <color name="orange">#FF4500  </color>
-    <color name="green">#008080 </color>
-    <color name="back">#1e90ff</color>
+    <color name="green">#008080</color>
+    <color name="back">#76b9fa</color>
     <color name="brightyellow">#FFFF00</color>
-    <color name="springgreen">#00FF7F</color>
+    <color name="springgreen">#559c78</color>
 </resources>

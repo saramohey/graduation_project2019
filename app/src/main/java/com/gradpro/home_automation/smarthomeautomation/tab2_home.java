@@ -24,6 +24,7 @@ public class tab2_home extends Fragment {
         LinearLayout fanb =(LinearLayout) rootView.findViewById(R.id.fan_button);
         LinearLayout lockb =(LinearLayout) rootView.findViewById(R.id.lock_button);
         LinearLayout sensorsb =(LinearLayout) rootView.findViewById(R.id.sensors_button);
+        LinearLayout settingsb =(LinearLayout) rootView.findViewById(R.id.settings_button);
 
         ledsb.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +52,13 @@ public class tab2_home extends Fragment {
             public void onClick(View v) {
                 Intent l = new Intent(getActivity(), sensors.class);
                 startActivity(l);
+            }
+        });
+        settingsb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent m = new Intent(getActivity(), settings.class);
+                startActivity(m);
             }
         });
 
