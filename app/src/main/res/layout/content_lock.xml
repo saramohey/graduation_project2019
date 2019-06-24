@@ -4,62 +4,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/back"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".lock"
     tools:showIn="@layout/activity_lock">
 
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
         android:orientation="vertical">
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_weight="1"
             android:orientation="horizontal">
-
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="206dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="   Doors"
-                android:textColor="@color/colorPrimaryDark"
-                android:textStyle="bold" />
-
-            <ToggleButton
-                android:id="@+id/toggleButton"
-                android:layout_width="100dp"
-                android:layout_height="200dp"
-                android:background="@drawable/doors"
-                android:text="ToggleButton"
-                android:textOff=""
-                android:textOn="" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="206dp"
-                android:layout_height="wrap_content"
+                android:layout_width="147dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="20dp"
                 android:layout_weight="1"
-                android:text="   Windows"
-                android:textColor="@color/colorPrimaryDark"
+                android:text="   Lock/Unlock Windows"
+                android:textColor="#ffffff"
                 android:textStyle="bold" />
 
             <ToggleButton
                 android:id="@+id/toggleButton2"
-                android:layout_width="100dp"
-                android:layout_height="200dp"
-                android:background="@drawable/doors"
+                android:layout_width="145dp"
+                android:layout_height="105dp"
+                android:background="@color/back"
+                android:foreground="@drawable/windows"
+                android:text="ToggleButton"
+                android:textOff=""
+                android:textOn="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="206dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:paddingTop="20dp"
+                android:text="   Lock/Unlock Doors"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton"
+                android:layout_width="149dp"
+                android:layout_height="265dp"
+                android:background="@color/back"
+                android:foreground="@drawable/doors"
                 android:text="ToggleButton"
                 android:textOff=""
                 android:textOn="" />
         </LinearLayout>
 
     </LinearLayout>
+
 </android.support.v4.widget.NestedScrollView>

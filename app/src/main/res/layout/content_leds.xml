@@ -4,16 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".leds"
     tools:showIn="@layout/activity_leds">
 
-    <ToggleButton
-        android:id="@+id/toggleButton"
-        android:layout_width="400dp"
-        android:layout_height="10dp"
-        android:background="@drawable/lamp"
-        android:text="ToggleButton"
-        android:textOff=""
-        android:textOn="" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="299dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Turn Lights ON/OFF"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="30sp"
+            app:fontFamily="sans-serif-black" />
+
+        <ToggleButton
+            android:id="@+id/toggleleds"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@color/colorAccent"
+            android:foreground="@drawable/lamp"
+            android:textOff=""
+            android:textOn="" />
+
+    </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

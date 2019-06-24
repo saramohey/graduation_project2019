@@ -21,23 +21,14 @@ public class tab2_home extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.tab2_home, container, false);
         LinearLayout ledsb =(LinearLayout) rootView.findViewById(R.id.led_button);
-        LinearLayout fanb =(LinearLayout) rootView.findViewById(R.id.fan_button);
         LinearLayout lockb =(LinearLayout) rootView.findViewById(R.id.lock_button);
-        LinearLayout sensorsb =(LinearLayout) rootView.findViewById(R.id.sensors_button);
         LinearLayout settingsb =(LinearLayout) rootView.findViewById(R.id.settings_button);
 
-        ledsb.setOnClickListener(new View.OnClickListener() {
+       ledsb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getActivity(), leds.class);
                 startActivity(i);
-            }
-        });
-        fanb.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent j = new Intent(getActivity(), fan.class);
-                startActivity(j);
             }
         });
         lockb.setOnClickListener(new View.OnClickListener() {
@@ -45,13 +36,6 @@ public class tab2_home extends Fragment {
             public void onClick(View v) {
                 Intent k = new Intent(getActivity(), lock.class);
                 startActivity(k);
-            }
-        });
-        sensorsb.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent l = new Intent(getActivity(), sensors.class);
-                startActivity(l);
             }
         });
         settingsb.setOnClickListener(new View.OnClickListener() {

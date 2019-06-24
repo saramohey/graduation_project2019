@@ -4,11 +4,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/icon1"
+        android:label="Smart Home"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".changeusername"></activity>
+        <activity android:name=".changepassword" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -18,30 +19,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".navigation" />
         <activity
             android:name=".home1"
-            android:label="@string/title_activity_home1"
+            android:label=" "
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".settings"
-            android:label="@string/title_activity_settings"
+            android:label="Settings"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".leds"
-            android:label="@string/title_activity_leds"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".fan"
-            android:label="@string/title_activity_fan"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".sensors"
-            android:label="@string/title_activity_sensors"
+            android:label="Lighting"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".lock"
-            android:label="@string/title_activity_lock"
+            android:label="Locks"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 

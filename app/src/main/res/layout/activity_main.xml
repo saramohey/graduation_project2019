@@ -12,6 +12,7 @@
         android:layout_height="0dp"
         android:scaleType="centerCrop"
         android:src="@drawable/main_back"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,8 +20,12 @@
 
 
     <EditText
-        android:layout_width="330dp"
-        android:layout_height="73dp"
+        android:layout_width="288dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
         android:background="@drawable/textrec"
         android:hint="username..."
         android:inputType="textEmailAddress"
@@ -31,14 +36,14 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.598" />
+        app:layout_constraintVertical_bias="0.597" />
 
     <EditText
-        android:layout_width="323dp"
-        android:layout_height="83dp"
+        android:layout_width="288dp"
+        android:layout_height="62dp"
         android:background="@drawable/textrec"
         android:hint="password..."
         android:inputType="textPassword"
@@ -49,10 +54,14 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.79" />
+        app:layout_constraintVertical_bias="0.781"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"/>
 
     <CheckBox
         android:id="@+id/checkBox"

@@ -10,7 +10,7 @@ public class tab1_pool extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.tab1_control, container, false);
+        View rootView = inflater.inflate(R.layout.tab1_pool, container, false);
         return rootView;
     }
 }
