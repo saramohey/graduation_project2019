@@ -3,11 +3,11 @@ package com.gradpro.home_automation.smarthomeautomation;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class navigation extends AppCompatActivity {
+public class changeusername extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_navigation);
+        setContentView(R.layout.activity_changeusername);
     }
 }
