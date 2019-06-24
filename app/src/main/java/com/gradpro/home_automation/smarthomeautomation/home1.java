@@ -9,8 +9,6 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 
 public class home1 extends AppCompatActivity {
 
@@ -48,13 +46,13 @@ public class home1 extends AppCompatActivity {
             switch (position)
             {
                 case 0:
-                    tab1_pool tab1 =new tab1_pool();
+                    tab1_status tab1 =new tab1_status();
                     return tab1;
                 case 1:
                     tab2_home tab2 =new tab2_home();
                     return tab2;
                 case 2:
-                    tab3_status tab3 =new tab3_status();
+                    tab3_pool tab3 =new tab3_pool();
                     return tab3;
                 default:
                     return null;
@@ -75,11 +73,11 @@ public class home1 extends AppCompatActivity {
             switch (position) {
 
                 case 0:
-                    return "POOL";
+                    return "STATUS";
                 case 1:
                     return "HOME";
                 case 2:
-                    return "STATUS";
+                    return "POOL";
             }
             return null;
 

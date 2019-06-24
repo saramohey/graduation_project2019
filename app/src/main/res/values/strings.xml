@@ -7,9 +7,9 @@
     <string name="title_activity_home1">home1</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_main2">Main2Activity</string>
-    <string name="tab_text_1">Pool</string>
+    <string name="tab_text_1">Status</string>
     <string name="tab_text_2">Home</string>
-    <string name="tab_text_3">Status</string>
+    <string name="tab_text_3">Pool</string>
     <string name="title_activity_leds">leds</string>
     <string name="title_activity_fan">fan</string>
     <string name="title_activity_lock">lock</string>

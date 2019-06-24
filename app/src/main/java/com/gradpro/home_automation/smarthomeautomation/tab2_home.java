@@ -34,8 +34,8 @@ public class tab2_home extends Fragment {
         lockb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent k = new Intent(getActivity(), lock.class);
-                startActivity(k);
+                Intent kl = new Intent(getActivity(), lock.class);
+                startActivity(kl);
             }
         });
         settingsb.setOnClickListener(new View.OnClickListener() {

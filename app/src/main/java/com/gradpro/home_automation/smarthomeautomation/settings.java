@@ -20,6 +20,7 @@ public class settings extends AppCompatActivity {
         setSupportActionBar(toolbar);
         Button userb =(Button) findViewById(R.id.change_username_but);
         Button passb =(Button) findViewById(R.id.change_pass_but);
+        Button signout =(Button) findViewById(R.id.signoutbutt);
 
         userb.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +34,13 @@ public class settings extends AppCompatActivity {
             public void onClick(View v) {
                 Intent kk = new Intent(settings.this, changepassword.class);
                 startActivity(kk);
+            }
+        });
+        signout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ll = new Intent(settings.this, MainActivity.class);
+                startActivity(ll);
             }
         });
 
