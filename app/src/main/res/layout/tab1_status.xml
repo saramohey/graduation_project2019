@@ -35,7 +35,7 @@
                 app:fontFamily="sans-serif-condensed-medium" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/texttemp"
                 android:layout_width="178dp"
                 android:layout_height="103dp"
                 android:layout_gravity="center"
@@ -56,7 +56,7 @@
                 app:fontFamily="sans-serif-condensed-medium" />
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/texthum"
                 android:layout_width="173dp"
                 android:layout_height="101dp"
                 android:layout_gravity="center"
