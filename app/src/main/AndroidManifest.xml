@@ -10,7 +10,8 @@
         android:label="Smart Home"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".autorobot"></activity>
+        <activity android:name=".signin"></activity>
+        <activity android:name=".autorobot" />
         <activity android:name=".manualrobot" />
         <activity android:name=".changeusername" />
         <activity android:name=".changepassword" />
