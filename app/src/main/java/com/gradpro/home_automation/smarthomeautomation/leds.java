@@ -21,8 +21,7 @@ public class leds extends AppCompatActivity {
 
     FirebaseDatabase database=FirebaseDatabase.getInstance();
     ToggleButton ledtoggle;
-    DatabaseReference reff=FirebaseDatabase.getInstance().getReference();
-    DatabaseReference ledref=reff.child("Leds");
+    DatabaseReference ledref=FirebaseDatabase.getInstance().getReference().child("Leds");
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

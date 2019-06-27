@@ -18,9 +18,9 @@ public class lock extends AppCompatActivity {
     FirebaseDatabase database=FirebaseDatabase.getInstance();
     ToggleButton wintog;
     ToggleButton dotog;
-    DatabaseReference lreff=FirebaseDatabase.getInstance().getReference().child("Locks");
-    DatabaseReference winref=lreff.child("Windows");
-    DatabaseReference doref=lreff.child("Doors");
+
+    DatabaseReference winref=FirebaseDatabase.getInstance().getReference().child("Windows");
+    DatabaseReference doref=FirebaseDatabase.getInstance().getReference().child("Doors");
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

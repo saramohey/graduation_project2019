@@ -20,6 +20,7 @@
 
 
     <EditText
+        android:id="@+id/emailfield"
         android:layout_width="301dp"
         android:layout_height="54dp"
         android:layout_marginStart="8dp"
@@ -27,7 +28,7 @@
         android:layout_marginEnd="52dp"
         android:layout_marginRight="52dp"
         android:background="@android:color/transparent"
-        android:hint=" username..."
+        android:hint="e-mail/username..."
         android:inputType="textEmailAddress"
         android:paddingLeft="26dp"
         android:paddingTop="6dp"
@@ -42,6 +43,7 @@
         app:layout_constraintVertical_bias="0.592" />
 
     <EditText
+        android:id="@+id/passwordfield"
         android:layout_width="288dp"
         android:layout_height="62dp"
         android:layout_marginStart="8dp"

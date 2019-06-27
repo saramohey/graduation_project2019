@@ -22,9 +22,8 @@ public class tab1_status extends Fragment {
     FirebaseDatabase database=FirebaseDatabase.getInstance();
     TextView temp;
     TextView hum;
-    DatabaseReference senreff=FirebaseDatabase.getInstance().getReference().child("Sensors");
-    DatabaseReference tref=senreff.child("Temperature");
-    DatabaseReference href=senreff.child("Humidity");
+    DatabaseReference tref=FirebaseDatabase.getInstance().getReference().child("Temperature");
+    DatabaseReference href=FirebaseDatabase.getInstance().getReference().child("Humidity");
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
